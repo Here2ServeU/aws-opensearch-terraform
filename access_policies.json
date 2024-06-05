@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::730335276920:role/aws-service-role/opensearchservice.amazonaws.com/AWSServiceRoleForAmazonOpenSearchService"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:es:us-east-1:730335276920:domain/t2s-academy-tech/*"
+    },
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::730335276920:role/aws-service-role/opensearchservice.amazonaws.com/AWSServiceRoleForAmazonOpenSearchService"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:es:us-east-1:730335276920:domain/t2s-academy-tech/*"
+    }
+  ]
+}
