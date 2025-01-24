@@ -12,9 +12,9 @@ This repository provides Terraform configurations to deploy an Amazon OpenSearch
 
 ### Clone the repository** 
    
-   git clone https://github.com/Messites/terraform-scripts/
+   git clone https://github.com/Here2ServeU/aws-opensearch-terraform 
    
-   cd terraform-scripts/opensearch
+   cd aws-opensearch-terraform 
 
 ### Variables
 Ensure that you change the variables defined in variables.tf:
